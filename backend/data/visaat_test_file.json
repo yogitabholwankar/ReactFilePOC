@@ -1,0 +1,31 @@
+{
+  "Expense": {
+    "Cost": {
+      "filePattern": "*costexpenditure*.xlsx",
+      "fileFormat": "csv",
+      "columns": [
+        {
+          "title": "col 1",
+          "type": "text",
+          "description": "col dsc"
+        },
+        {
+          "title": "col 2",
+          "type": "number",
+          "description": "col dsc"
+        }
+      ]
+    },
+    "Admin": {
+      "filePattern": "*costexpenditure*.xlsx",
+      "fileFormat": "csv",
+      "columns": [
+        {
+          "title": "col 1 for admin ",
+          "type": "date",
+          "description": "col dsc"
+        }
+      ]
+    }
+  }
+}
